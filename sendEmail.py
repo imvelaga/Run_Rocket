@@ -8,7 +8,7 @@ def send_email(msg):
     receiver_email = ["shankar.velaga@gmail.com"]
     #receiver_email = ["shankar.velaga@gmail.com", "usvelaga@gmail.com"]
     #https://myaccount.google.com/apppasswords
-    password = "xxxxx xxx xxxx"
+    password = "zlrp nktq tpcr llvf"
 
     # Create a message object
     message = MIMEMultipart()
