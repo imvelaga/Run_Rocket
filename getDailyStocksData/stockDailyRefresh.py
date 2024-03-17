@@ -23,7 +23,7 @@ try:
 
         headers = {user_agent_key: user_agent_value}
         response = requests.get(
-            "https://fc.yahoo.com", headers=headers, allow_redirects=True
+            "https://www.nellisauction.com/", headers=headers, allow_redirects=True
         )
 
         if not response.cookies:

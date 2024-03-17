@@ -5,9 +5,10 @@ from email.mime.multipart import MIMEMultipart
 def send_email(msg):
     # Email configuration
     sender_email = "imvelaga@gmail.com"
-    receiver_email = ["shankar.velaga@gmail.com", "usvelaga@gmail.com"]
+    receiver_email = ["shankar.velaga@gmail.com"]
+    #receiver_email = ["shankar.velaga@gmail.com", "usvelaga@gmail.com"]
     #https://myaccount.google.com/apppasswords
-    password = "zlrp nktq tpcr llvf"
+    password = "xxxxx xxx xxxx"
 
     # Create a message object
     message = MIMEMultipart()
