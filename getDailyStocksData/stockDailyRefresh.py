@@ -3,7 +3,7 @@ import requests
 import sys
 import psycopg2
 import json
-from sendEmail import send_email
+from getDailyStocksData.sendEmail import send_email
 
 conn = psycopg2.connect(
     host = 'localhost',

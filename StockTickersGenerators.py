@@ -20,7 +20,7 @@ for perm in permutations:
     print(value)
     data = (value, None,  None, None, None, None, None, None, 'false')
     # Execute SQL INSERT statement
-    cursor.execute("INSERT INTO track_it.stock_master (ticker_name, stock_name, stock_industry, stock_sector, dummy1, dummy2,dummy3, available_date, is_available) VALUES(%s,%s,%s,%s,%s,%s,%s,%s,%s)",data)
+    cursor.execute("INSERT INTO track_it.stock_ticker_master (ticker_name, stock_name, stock_industry, stock_sector, dummy1, dummy2,dummy3, available_date, is_available) VALUES(%s,%s,%s,%s,%s,%s,%s,%s,%s)",data)
     conn.commit()
 cursor.close()
 conn.close()

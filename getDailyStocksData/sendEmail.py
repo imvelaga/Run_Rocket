@@ -6,6 +6,7 @@ def send_email(msg):
     # Email configuration
     sender_email = "imvelaga@gmail.com"
     receiver_email = ["shankar.velaga@gmail.com"]
+    #receiver_email = ["shankar.velaga@gmail.com", "usvelaga@gmail.com"]
     #https://myaccount.google.com/apppasswords
     password = "zlrp nktq tpcr llvf"
 
@@ -13,7 +14,7 @@ def send_email(msg):
     message = MIMEMultipart()
     message["From"] = sender_email
     message["To"] = ", ".join(receiver_email)
-    message["Subject"] = "Python sent you and email"
+    message["Subject"] = "Python sent you an email"
 
     # Add body to email
     body_cons = "Hello, Python message: "+str(msg)

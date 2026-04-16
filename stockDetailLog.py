@@ -1,6 +1,6 @@
 import psycopg2
 import yfinance as yf
-from sendEmail import send_email
+from getDailyStocksData.sendEmail import send_email
 
 conn = psycopg2.connect(
     host = 'localhost',
